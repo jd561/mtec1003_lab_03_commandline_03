@@ -35,7 +35,9 @@ Follow the instructions line-by-line.
 $ touch foo.txt
 $ ls
 Copy and paste the output below.
-----------
+$ ls'/c/Users/marc/Documents/touch foo. txt'
+bash: ls/c/Users/marc/Documents/touch foo. txt: No such file or directory
+
 
 
 
@@ -43,7 +45,6 @@ Copy and paste the output below.
 7. Create another new file using touch.
 
 $ touch bar.txt
-----------
 
 
 
@@ -51,7 +52,9 @@ $ touch bar.txt
 8. List the files in this directory using the flag that gives the most details.
 
 Copy and paste the output below.
-----------
+$ /c/Users/marc/Documents/touchbar.txt
+bash: /c/Users/marc/Documents/touchbar.txt: Is a directory
+
 
 
 
@@ -60,7 +63,10 @@ Copy and paste the output below.
 
 
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
-----------
+$cp-r bar.txt.txt.baz
+$ $cp-r bar.txt.txt.baz
+bash: -r: command not found
+
 
 
 
@@ -68,13 +74,16 @@ Write the command that you used to copy the file.  Additionally, copy and paste 
 10. Delete the file called bar.txt and then list the files again.
 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
-----------
+$mv touchbar.txt.dir
+$bash: touchbar.txt.dir: command not found
 ==========
 11. Move the file called foo.txt to qux.txt and then list the files again.
 
 
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
-----------
+$ '/c/Users/marc/Downloads/touch foo. txt'
+bash: /c/Users/marc/Downloads/touch foo. txt: Is a directory
+
 
 
 
@@ -89,7 +98,7 @@ Write the command that you used to move the file.  Copy and paste the output of 
 13. Try removing the directory called my_files using rmdir.
 
 Write out the command that you used and what happened.
-----------
+
 
 
 
@@ -97,7 +106,8 @@ Write out the command that you used and what happened.
 14. Try removing the directory called my_files using rm.
 
 Write out the command that you used and what happened.
-----------
+$ rm/c/Users/marc/Documents/my_files
+bash: rm/c/Users/marc/Documents/my_files: No such file or directory
 
 
 
@@ -119,7 +129,9 @@ books/other/pg1232.txt
 Use the command called cat on the file to show its contents. 
 
 Describe what happened below.
-----------
+$ cat c/Users/marc/Documents/my_files
+cat: c/Users/marc/Documents/my_files: No such file or directory
+
 
 
 
@@ -131,7 +143,9 @@ books/other/pg1232.txt
 Use the command, head, on the file to show the contents of the beginning of the file.  
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
-----------
+$ head$ cat c/Users/marc/Documents/my_filesbooks/other/pg1232.txt
+bash: head$: command not found
+
 
 
 
@@ -143,7 +157,9 @@ books/other/pg1232.txt
 Use tail on the file to show the contents of the end of the file.  
 
 Write the command that you used below.  Write the last line of the output below.
-----------
+$ tail$ cat c/Users/marc/Documents/my_filesbooks/other/pg1232.txt
+bash: tail$: command not found
+
 
 
 
@@ -155,7 +171,8 @@ books/other/pg1232.txt
 Use less and more on the file to show the contents of the file.  Try pressing spacebar and/or q afterwards.
 
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
-----------
+q-books/other/pg1232.txt
+It did less
 
 
 
@@ -169,17 +186,17 @@ Write the command that you used below.  Describe what spacebar and q does after 
 
 ==========
 21.  How many words are in pg1232.txt?  What command did you use to determine the word count?
-----------
+1004, command:tail
 
 
 
 ==========
 22.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
-----------
+1004, command: head
 
 
 ==========
 23.  Make sure you're in the books/other folder.  Copy all of the txt files from that folder to your home directory using wildcard matching.
 
 Write the command that you used below.
-----------
+cp.* gif books/other/pg1232.txt
