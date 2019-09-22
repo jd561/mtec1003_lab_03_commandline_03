@@ -14,7 +14,8 @@ This lab will review downloading and uncompressing files, and it will get us set
 1. Go to your home directory.
 
 Write the command that you used to do this below:
-----------
+$/c/Users/marc
+
 
 
 
@@ -22,7 +23,51 @@ Write the command that you used to do this below:
 2. Prove that you're in your home directory.
 
 Write the command that you used to do this - as well as its output - below :
-----------
+$/c/Users/marc
+'3D Objects'/
+ a.bat
+ AppData/
+ Apple/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ elite.txt
+ Favorites/
+ food/
+'Google Drive'/
+ iCloudDrive/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TM.blf
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ OneDrive.old/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ Templates@
+ Videos/
+
+
+
 
 
 
@@ -30,7 +75,53 @@ Write the command that you used to do this - as well as its output - below :
 3. Are there any directories or files in your directory that have the word mtec1003 in it?
 
 Write the command(s) that you used to determine this - as well as its output - below:
-----------
+
+/c/Users/marc/mtec1003
+
+'3D Objects'/
+ a.bat
+ AppData/
+ Apple/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ elite.txt
+ Favorites/
+ food/
+'Google Drive'/
+ iCloudDrive/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ mtec1003
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TM.blf
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ OneDrive.old/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ Templates@
+ Videos/
+
+
 
 
 
@@ -66,7 +157,11 @@ Use a command that we learned to do this.
 This command should have a *flag* to specify the output file.  MAKE SURE TO NAME YOUR OUTPUT FILE: mtec1003-lab-03.tar.gz
 
 Write the command(s) that you used to download this file - as well as its output - below:
-----------
+$-o/c/User/marc/mtec1003-lab.tar.gz
+ -0/c/User/marc/mtec1003-lab.tar.gz: No such file or directory
+
+
+
 
 
 
@@ -74,7 +169,51 @@ Write the command(s) that you used to download this file - as well as its output
 7.  Uncompress the file that you just downloaded.
 
 Write the command(s) that you used to do this - as well as its output - below:
-----------
+$tar-xvzf/c/User/marc/mtec1003-lab.tar.gz
+'3D Objects'/
+ a.bat
+ AppData/
+ Apple/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ elite.txt
+ Favorites/
+ food/
+'Google Drive'/
+ iCloudDrive/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ mtec1003-lab
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TM.blf
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ OneDrive.old/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ Templates@
+ Videos/
+
+
 
 
 
@@ -89,7 +228,54 @@ b. go back to step 6
 Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
-----------
+$-o/c/User/marc/mtec1003-lab-03
+'3D Objects'/
+ a.bat
+ AppData/
+ Apple/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ elite.txt
+ Favorites/
+ food/
+'Google Drive'/
+ iCloudDrive/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ mtec1003-lab-03
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TM.blf
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ OneDrive.old/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ Templates@
+ Videos/
+
+
+
+
+
 
 
 
@@ -97,7 +283,50 @@ Write the command(s) that you used to do this - as well as its output - below:
 9.  What directories are in the mtec1003-lab-03 folder?
 
 Write the command(s) that you used to determine this - as well as its output - below:
-----------
+$-d/c/User/marc/mtec1003-lab-03
+
+'3D Objects'/
+ a.bat
+ AppData/
+ Apple/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ elite.txt
+ Favorites/
+ food/
+'Google Drive'/
+ iCloudDrive/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TM.blf
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ OneDrive.old/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ Templates@
+ Videos/
+
 
 
 
@@ -105,7 +334,53 @@ Write the command(s) that you used to determine this - as well as its output - b
 10.  Now... go back home.  Then change to the science-fiction directory using a relative path.  The directory is located in books... which is located in the mtec1003-lab-03 directory.  Verify you're in the right directory using pwd.
 
 Write the command(s) (including going home) that you used to do this below:
-----------
+$pwd/myprojects/science fiction/output
+
+'3D Objects'/
+ a.bat
+ AppData/
+ Apple/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ elite.txt
+ Favorites/
+ food/
+'Google Drive'/
+ iCloudDrive/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TM.blf
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{ee092a28-cba9-11e9-a3c5-89272ef693b3}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ OneDrive.old/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+ Templates@
+ Videos/
+
+
+
+
 
 
 
@@ -113,7 +388,16 @@ Write the command(s) (including going home) that you used to do this below:
 11.  Write the files that are in the science fiction directory below.
 
 Write the command(s) that you used to do this - as well as its output - below:
-----------
+$-d/science fiction/output
+Saved Games'/
+Science Fiction/
+ Searches/
+ SendTo@
+ SkyDrive/
+'Start Menu'@
+
+
+
 
 
 
@@ -121,22 +405,24 @@ Write the command(s) that you used to do this - as well as its output - below:
 12.  Again, go back to your home directory.  Now... go to the science-fiction directory using an absolute path!  Verify that you're in the right directory using pwd.
 
 Write the command(s) that you used to do this below:
-----------
+$pwd/c/user/marc/my projects/lab 03/output
+
 
 ==========
 13. Immediately change back to the mtec1003-lab-03 folder with a single command using a *relative* path.
 
 Write the command(s) that you used to do this below:
-----------
+$/myprojects/lab 03/output
 
 ==========
 14. Find out what the most recently modified directory is in mtec1003 (there are only 3 to choose from)?  How would you find this out?  Hint: perhaps using something to show the modified date... and sort it by time.
 
 Write the command(s) that you used to do this below:
-----------
+$find mtec1003/sort-r
 
 ==========
 15. Create a compressed archive of the logs folder - that is... take the contents of logs and create a single archive (.tar), and compress (.gz)
 
 Write the command(s) that you used to do this below:
-----------
+$tar-cvf/c/User/marc/mtec1003-lab.tar.gz
+
